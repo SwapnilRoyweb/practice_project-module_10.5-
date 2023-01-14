@@ -65,3 +65,94 @@ main .brand > img{
     width: 91px;
     height: 38px;
 }
+/* popular collection section */
+.main-section{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.main-section h1{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+.popular-collection .collection > img{
+    width: 300px;
+    height: 256px;
+}
+.popular-collection .collection{
+    margin-top: 30px;
+    background-color: aliceblue;
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.collection .details > h3, h6, .ratings, p{
+    margin-bottom: 10px;
+}
+.collection .details > h6{
+    font-weight: 400;
+    font-size: 24px;
+}
+.ratings .filled{
+    color: yellow;
+}
+.ratings .empty, .rate{
+    color: gray;
+}
+.main-section > button{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    border: 0;
+    background-color: white;
+    color: #E02C6D;
+}
+.main-section > button .icon{
+    margin-left: 5px;
+}
+/* advirtising section */
+.advertising{
+    margin-top: 200px;
+    margin-left: 100px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.advertising > .description{
+    width: 500px;
+    height: 200px;
+}
+.advertising .description > button{
+    width: 120px;
+    border: 0;
+    padding: 10px;
+    background-color: #E02C6D;
+    color: white;
+}
+.advertising .description .icon_2{
+    margin-left: 10px;
+}
+footer{
+    margin-top: 100px;
+    background-color: rgb(3, 3, 59);
+}
+footer .footer-description{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+}
+.circle{
+    background-color: lightslategray;
+    width: 20px;
+    height: 20px;
+    padding-top: 4px;
+    border-radius: 10px;
+}
